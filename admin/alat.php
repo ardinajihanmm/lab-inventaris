@@ -213,6 +213,9 @@ include 'layout_top.php';
     <div class="table-card-header">
         <i class="bi bi-list-ul text-muted"></i>
         <h5>Daftar Alat (<?= mysqli_num_rows($data) ?> item)</h5>
+         <a href="export_csv.php" class="btn btn-success">
+        <i class="bi bi-download"></i> Export CSV
+        </a>
     </div>
     <div class="table-responsive">
         <table class="table mb-0">
