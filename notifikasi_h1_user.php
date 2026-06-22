@@ -6,7 +6,7 @@ if (!isset($notif_count) || $notif_count === 0) return;
     <div class="notif-h1-icon"><i class="bi bi-bell-fill"></i></div>
     <div class="notif-h1-body">
         <div class="notif-h1-title">
-            Pengingat Pengembalian — Besok!
+            Pengingat Pengembalian : Besok!
         </div>
         <div class="notif-h1-sub">
             <?= $notif_count ?> alat berikut harus dikembalikan <strong>besok,
@@ -18,7 +18,7 @@ if (!isset($notif_count) || $notif_count === 0) return;
                 <i class="bi bi-box-seam"></i>
                 <span>
                     <strong><?= htmlspecialchars($n['nama_alat']) ?></strong>
-                    &mdash; <?= $n['jumlah'] ?> unit
+                    <?= $n['jumlah'] ?> unit
                     <span class="notif-h1-date">
                         <i class="bi bi-calendar-x ms-1"></i>
                         <?= date('d M Y', strtotime($n['tgl_kembali'])) ?>
