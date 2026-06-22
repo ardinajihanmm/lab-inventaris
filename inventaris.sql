@@ -1,0 +1,2 @@
+-- Database Inventaris Laboratorium
+-- Akan diperbarui pada commit berikutnya
