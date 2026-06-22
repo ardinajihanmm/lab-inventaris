@@ -1,3 +1,6 @@
 <?php
-// Akan dikerjakan oleh anggota lain
+session_start();
+session_destroy();
+header("Location: login.php");
+exit;
 ?>
