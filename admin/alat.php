@@ -82,7 +82,7 @@ if (isset($_GET['msg']) && $_GET['msg'] === 'updated') {
     $tipe  = "success";
 }
 
-// ===== Pencarian & Filter (prepared statement, aman dari SQL injection) =====
+
 $cari     = isset($_GET['cari']) ? trim($_GET['cari']) : '';
 $kategori = isset($_GET['kategori']) ? trim($_GET['kategori']) : '';
 $status   = isset($_GET['status']) ? trim($_GET['status']) : '';

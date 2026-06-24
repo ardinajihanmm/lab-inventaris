@@ -33,7 +33,7 @@ include 'layout_top.php';
 
 <div class="page-banner">
     <h1><i class="bi bi-hand-thumbs-up-fill me-2"></i>Selamat datang, <?= htmlspecialchars($_SESSION['user']['username']) ?>!</h1>
-    <p>Berikut ringkasan inventaris dan peminjaman alat Laboratorium Komputer & Elektronika hari ini.</p>
+    <p>Berikut ringkasan inventaris dan peminjaman alat Laboratorium Komputer & Informatika hari ini.</p>
 </div>
 
 <div class="row g-3 mb-4">

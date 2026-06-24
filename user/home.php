@@ -205,8 +205,8 @@ include 'layout_top.php';
                         <div class="guide-step">
                             <div class="guide-step-icon"><i class="bi bi-clipboard-check"></i></div>
                             <div class="guide-step-text">
-                                <strong>Verifikasi kondisi alat</strong>
-                                <span>Admin memeriksa kondisi alat yang dikembalikan.</span>
+                                <strong>Lakukan pengembalian di sistem</strong>
+                                <span>Klik tombol kembalikan pada riwayat peminjaman yang masih aktif.</span>
                             </div>
                         </div>
                         <div class="guide-step is-last">
