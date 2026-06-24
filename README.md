@@ -15,6 +15,9 @@
 
 ---
 
+## Link Hosting
+http://kelompok4-kelas-a.tekkom.web.id/login.php
+
 ## Deskripsi Sistem
 
 Sistem Inventaris Laboratorium Komputer & Informatika merupakan aplikasi berbasis web yang digunakan untuk membantu pengelolaan inventaris alat laboratorium, proses peminjaman alat, pengembalian alat, serta monitoring status peminjaman secara terpusat.
